@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "alex-skills",
+  "description": "Agent skills for code care, security vetting, session routines, writing and thinking, by Alex.",
+  "owner": {
+    "name": "Alex",
+    "url": "https://github.com/alex20-create"
+  },
+  "plugins": [
+    {
+      "name": "security-skills",
+      "description": "Vet third-party code before trusting it (vet-before-install) and keep pinned, patched copies of third-party skills (fork-keeper).",
+      "version": "1.5.2",
+      "source": { "source": "github", "repo": "alex20-create/security-skills", "ref": "v1.5.2" },
+      "skills": ["./vet-before-install", "./fork-keeper"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/security-skills",
+      "category": "security",
+      "keywords": ["security", "audit", "supply-chain", "skills"]
+    },
+    {
+      "name": "code-care-skills",
+      "description": "Review, clean up and ship branches and whole projects: code-cleanup, branch-cleanup, branch-review, project-review and branch-ship.",
+      "version": "1.3.0",
+      "source": { "source": "github", "repo": "alex20-create/code-care-skills", "ref": "v1.3.0" },
+      "skills": ["./code-cleanup", "./branch-cleanup", "./branch-review", "./project-review", "./branch-ship"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/code-care-skills",
+      "category": "development",
+      "keywords": ["code-review", "refactoring", "git", "pull-requests"]
+    },
+    {
+      "name": "session-routines",
+      "description": "Open, plan, close and direct work sessions: resume-project, skill-picker, plan-admin, wrap-up and project-director.",
+      "version": "1.3.0",
+      "source": { "source": "github", "repo": "alex20-create/session-routines", "ref": "v1.3.0" },
+      "skills": ["./resume-project", "./skill-picker", "./plan-admin", "./wrap-up", "./project-director"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/session-routines",
+      "category": "productivity",
+      "keywords": ["sessions", "planning", "handoff", "workflow"]
+    },
+    {
+      "name": "thinking-skills",
+      "description": "Raise the ambition of a task (aim-higher) and improve existing skills with clean dry runs (skill-improver).",
+      "version": "1.1.0",
+      "source": { "source": "github", "repo": "alex20-create/thinking-skills", "ref": "v1.1.0" },
+      "skills": ["./aim-higher", "./skill-improver"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/thinking-skills",
+      "category": "productivity",
+      "keywords": ["prompting", "skills", "meta"]
+    },
+    {
+      "name": "obsidian-project-sync",
+      "description": "Keep an Obsidian vault's project notes in step with the work done in each session, with a session-log hook.",
+      "version": "1.1.0",
+      "source": { "source": "github", "repo": "alex20-create/obsidian-project-sync-skill", "ref": "v1.1.0" },
+      "skills": ["./obsidian-project-sync"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/obsidian-project-sync-skill",
+      "category": "productivity",
+      "keywords": ["obsidian", "notes", "documentation"]
+    },
+    {
+      "name": "workspace-setup",
+      "description": "Set up a Claude Code project folder or a claude.ai Project that links to its sources instead of copying them.",
+      "version": "1.2.0",
+      "source": { "source": "github", "repo": "alex20-create/workspace-setup-skill", "ref": "v1.2.0" },
+      "skills": ["./workspace-setup"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/workspace-setup-skill",
+      "category": "productivity",
+      "keywords": ["setup", "workspace", "claude-md"]
+    },
+    {
+      "name": "deslop",
+      "description": "Clean AI-generated drafts in English and Spanish so they read as the writer's own text.",
+      "version": "1.0.0",
+      "source": { "source": "github", "repo": "alex20-create/deslop-skill", "ref": "v1.0.0" },
+      "skills": ["./deslop"],
+      "license": "MIT",
+      "homepage": "https://github.com/alex20-create/deslop-skill",
+      "category": "writing",
+      "keywords": ["writing", "editing", "spanish"]
+    }
+  ]
+}
