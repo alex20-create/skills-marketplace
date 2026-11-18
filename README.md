@@ -1,4 +1,4 @@
-# alex-skills
+# corvus-skills
 
 A Claude Code plugin marketplace for my agent skills. Each plugin points at the skill's own repository, pinned to its latest release tag.
 
@@ -6,14 +6,14 @@ A Claude Code plugin marketplace for my agent skills. Each plugin points at the 
 
 ```
 /plugin marketplace add alex20-create/skills-marketplace
-/plugin install code-care-skills@alex-skills
+/plugin install code-care-skills@corvus-skills
 ```
 
 Or from a terminal:
 
 ```
 claude plugin marketplace add alex20-create/skills-marketplace
-claude plugin install code-care-skills@alex-skills
+claude plugin install code-care-skills@corvus-skills
 ```
 
 Installed skills are namespaced by plugin, for example `code-care-skills:branch-review`.

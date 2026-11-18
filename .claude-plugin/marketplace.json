@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "alex-skills",
+  "name": "corvus-skills",
   "description": "Agent skills for code care, security vetting, session routines, writing and thinking, by Alex.",
   "owner": {
     "name": "Alex",
