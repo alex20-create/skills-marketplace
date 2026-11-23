@@ -65,8 +65,8 @@
     {
       "name": "workspace-setup",
       "description": "Set up a Claude Code project folder or a claude.ai Project that links to its sources instead of copying them.",
-      "version": "1.2.0",
-      "source": { "source": "github", "repo": "alex20-create/workspace-setup-skill", "ref": "v1.2.0" },
+      "version": "1.3.0",
+      "source": { "source": "github", "repo": "alex20-create/workspace-setup-skill", "ref": "v1.3.0" },
       "skills": ["./workspace-setup"],
       "license": "MIT",
       "homepage": "https://github.com/alex20-create/workspace-setup-skill",
