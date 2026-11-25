@@ -24,7 +24,7 @@ Installed skills are namespaced by plugin, for example `code-care-skills:branch-
 |---|---|---|
 | [security-skills](https://github.com/alex20-create/security-skills) | vet-before-install, fork-keeper | v1.6.0 |
 | [code-care-skills](https://github.com/alex20-create/code-care-skills) | code-cleanup, branch-cleanup, branch-review, project-review, branch-ship | v1.3.0 |
-| [session-routines](https://github.com/alex20-create/session-routines) | resume-project, skill-picker, plan-admin, wrap-up, project-director | v1.7.0 |
+| [session-routines](https://github.com/alex20-create/session-routines) | resume-project, skill-picker, plan-admin, wrap-up, project-director | v1.8.0 |
 | [thinking-skills](https://github.com/alex20-create/thinking-skills) | aim-higher, skill-improver | v1.2.0 |
 | [obsidian-project-sync](https://github.com/alex20-create/obsidian-project-sync-skill) | obsidian-project-sync | v1.2.0 |
 | [workspace-setup](https://github.com/alex20-create/workspace-setup-skill) | workspace-setup | v1.4.0 |
