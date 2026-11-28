@@ -32,8 +32,8 @@
     {
       "name": "session-routines",
       "description": "Open, plan, close and direct work sessions: resume-project, skill-picker, plan-admin, wrap-up and project-director.",
-      "version": "1.8.0",
-      "source": { "source": "github", "repo": "alex20-create/session-routines", "ref": "v1.8.0" },
+      "version": "1.9.0",
+      "source": { "source": "github", "repo": "alex20-create/session-routines", "ref": "v1.9.0" },
       "skills": ["./resume-project", "./skill-picker", "./plan-admin", "./wrap-up", "./project-director"],
       "license": "MIT",
       "homepage": "https://github.com/alex20-create/session-routines",
